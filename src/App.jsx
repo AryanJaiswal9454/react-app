@@ -33,6 +33,7 @@ import Counter from "./allTopics/16_Context/Counter";
 // import Routing1 from "./allTopics/18_Routing/Routing1";
 // import Routing2 from "./allTopics/18_Routing/Routing2";
 import Products from "./allTopics/19_CustomHook/products";
+import Optimation from "./allTopics/20_Optimization/Optimization";
 
 const App = () => {
   const [toggle,setToggle]= useState(false);
@@ -79,7 +80,8 @@ const App = () => {
       </UserContextProvider> */}
       {/* <Routing1/> */}
       {/* <Routing2/> */}
-      <Products/>
+      {/* <Products/> */}
+      <Optimation/>
     </>
   );
 };
